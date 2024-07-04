@@ -1,0 +1,24 @@
+
+Program Terminated abnormally		Out of Data
+IC = 1	Toggle: 0	TLC: 0	TTC: 2	TTL90	TLL1	G	D	1	0
+
+
+Program Terminated abnormally		Invalid Page Fault
+IC = 2	Toggle: 0	TLC: 1	TTC: 3	TTL90	TLL1	P	D	2	0
+
+hello world                             
+
+Program Terminated abnormally		Time Limit Exceeded
+IC = 3	Toggle: 0	TLC: 1	TTC: 4	TTL: 3	TLL: 1	H	 	 	 
+
+hello                                   
+
+Program Terminated abnormally		Line Limit Exceeded
+IC = 4	Toggle: 0	TLC: 2	TTC: 6	TTL9	TLL1	P	D	2	0
+
+
+Program Terminated abnormally		Operation Code Error
+IC = 2	Toggle: 0	TLC: 0	TTC: 3	TTL: 9	TLL: 2	P	S	1	0
+
+
+Program Terminated abnormally		Operand Error

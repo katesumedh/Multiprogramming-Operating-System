@@ -1,0 +1,31 @@
+$AMJ000100900001      //job1 with error out of data error 
+GD10PD10H             //as there is no data card
+$DTA
+$END0001
+$AMJ000200900001      //job2 for PD20 we are going to get page fault as 
+GD10PD20H             //RA for 20 is not in page table
+$DTA
+hello world
+$END0002
+$AMJ000300030001      //job3 time limit exceeded as total time required 
+GD10PD10H             //for execution is 2+1+1 and time limit given is 3
+$DTA
+hello world
+$END0003
+$AMJ000400090001      //job4 line limit exceeded as total line limit is 1
+GD10GD20PD10PD20H
+$DTA
+hello 
+world
+$END0004  
+$AMJ000600090002      //job6 opcode error as we gave the instruction PS10 and no 
+GD10PS10H             //such instruction exists
+$DTA
+hello world
+$END0006            //job5 oprand error
+$AMJ000500090002
+GD10PD-0H
+$DTA
+hello world
+$END0005
+
